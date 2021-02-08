@@ -2,9 +2,11 @@
 
 ![](/pacman.png)
 
-This is the Pacman AI written by Wei Huang (yes, it's me!) for the [Contest: Pacman Capture the Flag](https://inst.eecs.berkeley.edu/~cs188/sp10/projects/contest/contest.html). You could download the contest platform codes and read detailed rules in the original course page.
+This is the Pacman AI written by Wei Huang (yes, it's me!) for the [Contest: Pacman Capture the Flag](https://inst.eecs.berkeley.edu/~cs188/sp10/projects/contest/contest.html). It got the first place in "CS 5804: Introduction to Artificial Intelligence" @ Virginia Tech 2015 Spring ✌️
 
-It got the first place in "CS 5804: Introduction to Artificial Intelligence" @ Virginia Tech 2015 Spring ✌️
+In this game each team has one half of the board with food pellets that the other team will try to eat. Each team is made up of two agents. When an agent is on "home turf", it is a Ghost, and can eat the enemy Pac-man. When an agent is on "enemy territory", it is a Pac-man, and can be eaten by the enemy Ghosts. The goal is to eat more than the other team. There are various other nuances to the game, like the fact that your agent is not given the position of the other agents - only the noisy distance to them.
+
+You could download the contest platform codes and read detailed rules in the original course page.
 
 ## AI algorithms used
 
